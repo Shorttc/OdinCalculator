@@ -24,6 +24,10 @@ body {
   border: solid 1px;
   border-color: black;
   border-radius: 5px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: xx-large;
 }
 
 .numberPad {
@@ -38,13 +42,13 @@ body {
   border-radius: 5px;
 }
 
-.equalsButton {
+.clearButton {
   width: 340px;
   height: 50px;
-  background-color: beige;
+  background-color: pink;
   margin: auto;
-  display: flex;
-  flex-direction: row;
+  align-items: center;
+  font-size: x-large;
   border: solid 1px;
   border-color: black;
   border-radius: 5px;
@@ -66,4 +70,5 @@ body {
   background-color: pink;
   align-items: center;
   font-size: x-large;
+  border-radius: 5px;
 }

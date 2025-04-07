@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
+
+.calculatorBody {
+  width: 400px;
+  height: 500px;
+  background-color: gray;
+  border: solid 2px;
+  border-color: black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.screen {
+  width: 340px;
+  height: 50px;
+  background-color: beige;
+  margin: auto;
+  border: solid 1px;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.numberPad {
+  width: 340px;
+  height: 300px;
+  background-color: beige;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.equalsButton {
+  width: 340px;
+  height: 50px;
+  background-color: beige;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.buttonsGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 3px;
+  margin: auto;
+}
+
+.button {
+  width: 70px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+  background-color: pink;
+  align-items: center;
+  font-size: x-large;
+}

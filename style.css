@@ -61,7 +61,43 @@ body {
   margin: auto;
 }
 
-.button {
+.buttonOpr {
+  width: 70px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+  background-color: pink;
+  align-items: center;
+  font-size: x-large;
+  border-radius: 5px;
+}
+
+.buttonNum {
+  width: 70px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+  background-color: pink;
+  align-items: center;
+  font-size: x-large;
+  border-radius: 5px;
+}
+
+.buttonEql {
+  width: 70px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+  background-color: pink;
+  align-items: center;
+  font-size: x-large;
+  border-radius: 5px;
+}
+
+.buttonDec {
   width: 70px;
   height: 60px;
   display: flex;
